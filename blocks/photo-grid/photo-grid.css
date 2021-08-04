@@ -5,5 +5,4 @@
     grid-template-rows: repeat(3, 31.74%);
     grid-gap: 16px 16px;
     margin: 92px auto 0;
-    border: 2px solid red;
 }
