@@ -1,0 +1,13 @@
+.place {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 46.74% 49.18%;
+    grid-template-rows: repeat(4, 1f1);
+    grid-template-areas:
+        "title website"
+        "image text"
+        "image text"
+        "image text";
+    grid-gap: 48px 40px;
+    margin: 0 auto 80px;
+}
