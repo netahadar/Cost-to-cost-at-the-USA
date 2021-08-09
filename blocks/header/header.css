@@ -1,8 +1,26 @@
 .header{
-    width: 76.875%;
+    max-width: 83.10%;
     min-height: 44px;
     margin: 0 auto;
     position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1148px){
+    .header{
+        max-width: 90.625%;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .header{
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 540px){
+    .header{
+        max-width: calc(100% - 32px);
+    }
 }

@@ -4,3 +4,9 @@
     padding: 12px 0 4px;
     margin: 0;
 }
+
+@media screen and (max-width: 540px){
+    .header__nav-list{
+        padding: 10px 0 6px;
+    }
+}
