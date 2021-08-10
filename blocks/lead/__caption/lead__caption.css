@@ -8,3 +8,15 @@
     margin: 8px 0 0;
     padding: 0;
 }
+
+ @media screen and (max-width: 860px){
+     .lead__caption {
+        margin-left: 24px;
+     }
+ }
+ 
+ @media screen and (max-width: 540px){
+     .lead__caption {
+        margin-left: 16px;
+     }
+ }

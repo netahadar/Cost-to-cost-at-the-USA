@@ -7,3 +7,25 @@
     margin: 32px auto 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1148px){
+    .lead__subtitle {
+      min-width: calc( 100% - 308px);
+    }   
+ }
+ 
+ @media screen and (max-width: 860px){
+     .lead__subtitle {
+         min-width: calc(100% - 148px);
+
+     }
+ }
+ 
+ @media screen and (max-width: 540px){
+     .lead__subtitle {
+         min-width: calc(100% - 32px);
+         font-size: 16px;
+         line-height: 1.25;
+         margin: 16px auto 0;
+     }
+ }

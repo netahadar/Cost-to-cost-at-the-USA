@@ -1,8 +1,14 @@
-.footer__links {
+.footer__list {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+@media screen and (max-width: 540px){
+    .footer__list {
+        display: block;
+    }
 }

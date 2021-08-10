@@ -2,6 +2,28 @@
     width: 100%;
     position: relative;
     display: flex;
+    justify-content: space-between;
     margin: 92px auto 0;
     padding: 0;
+}
+
+@media screen and (max-width: 1148px){
+    .footer {
+        max-width: calc(100% - 96px);
+    }   
+ } 
+
+@media screen and (max-width: 860px){
+    .footer {
+        max-width: calc(100% - 48px);
+    }
+}
+ 
+@media screen and (max-width: 540px){
+    .footer {
+        max-width: 165px;
+        min-height: 198px;
+        margin: 64px 137px 24px 16px;
+        flex-direction: column;
+    }
 }

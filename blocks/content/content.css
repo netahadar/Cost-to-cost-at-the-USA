@@ -11,20 +11,19 @@
 }
 
 @media screen and (max-width: 1148px){
-   .content{
-     max-width: 1024px;
-     margin: 0 auto; 
+   .content {
+        min-width: 1024px;
    }   
 }
 
 @media screen and (max-width: 860px){
-    .content{
-        max-width: 768px;
+    .content {
+        min-width: 768px;
     }
 }
 
 @media screen and (max-width: 540px){
-    .content{
-        max-width: 320px;
+    .content {
+        min-width: 320px;
     }
 }
