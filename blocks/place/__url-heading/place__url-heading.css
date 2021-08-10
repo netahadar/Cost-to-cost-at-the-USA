@@ -1,4 +1,4 @@
-.palce__url-heading{
+.place__url-heading{
     color: #AAAAAA;
     font-size: 12px;
     font-weight: normal;
@@ -10,7 +10,7 @@
 
 
 @media screen and (max-width: 860px){
-    .palce__url-heading {
+    .place__url-heading {
         line-height: 1;
     }
 }
