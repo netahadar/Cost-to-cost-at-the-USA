@@ -8,6 +8,7 @@
         "image text";
     grid-gap: 48px 40px;
     margin: 0 auto 80px;
+    position: relative;
 }
 
 @media screen and (max-width: 1148px){
@@ -28,5 +29,6 @@
         margin: 0 auto 48px;
         display: flex;
         flex-direction: column;
+        grid-gap: 0;
     }
 }
