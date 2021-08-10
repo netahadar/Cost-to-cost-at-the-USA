@@ -14,5 +14,4 @@ In this project I've specialized in:
  
  Take a look at the project on gh-pages at the following link:
  
- https://netahadar.github.io/Learning-How-To-Learn/
-
+ https://netahadar.github.io/Cost-to-cost-at-the-USA/
