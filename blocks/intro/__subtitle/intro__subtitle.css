@@ -1,8 +1,28 @@
 .intro__subtitle {
-    width: 100%;
+    width: 70.12%;
     font-size: 24px;
     font-weight: normal;
     line-height: 1.4;
     text-align: left;
     margin: 40px 0 0;
+}
+
+
+@media screen and (max-width: 1148px){
+    .intro__subtitle {
+        min-width: 74.35%;
+    }   
+}
+
+@media screen and (max-width: 860px){
+    .intro__subtitle {
+        width: 100%;
+     }
+}
+ 
+@media screen and (max-width: 540px){
+    .intro__subtitle {
+        width: 100%;
+        line-height: 1.25;
+    }
 }

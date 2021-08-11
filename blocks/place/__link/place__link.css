@@ -5,9 +5,9 @@
     line-height: 1.2;
     margin: 0;
     padding: 0;
-    opacity: 1;
+    transition: ease 0.5s;
 }
 
 .place__link:hover{
-    opacity: 0.5;
+    opacity: 0.8;
 }

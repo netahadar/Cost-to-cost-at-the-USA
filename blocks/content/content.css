@@ -1,5 +1,6 @@
 .content {
     max-width: 1184px;
+    min-width: 320px;
     font-family: 'Inter', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -9,22 +10,4 @@
     padding-bottom: 24px;
     box-sizing: border-box;
   
-}
-
-@media screen and (max-width: 1148px){
-   .content {
-        min-width: 1024px;
-   }   
-}
-
-@media screen and (max-width: 860px){
-    .content {
-        min-width: 768px;
-    }
-}
-
-@media screen and (max-width: 540px){
-    .content {
-        min-width: 320px;
-    }
 }

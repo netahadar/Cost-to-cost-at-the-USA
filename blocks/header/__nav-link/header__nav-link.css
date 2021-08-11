@@ -6,6 +6,11 @@
     padding: 0;
     margin: 0 0 0 18px;
     color: #ffffff;
+    transition: ease 0.5s;
+}
+
+.header__nav-link:hover{
+    opacity: 0.8;
 }
 
 .header__nav-link:active {
