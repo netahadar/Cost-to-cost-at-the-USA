@@ -1,4 +1,4 @@
-.header__nav-list {
+.header__lang-list {
     list-style: none;
     display: flex;
     padding: 12px 0 4px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 540px){
-    .header__nav-list{
+    .header__lang-list{
         padding: 10px 0 6px;
     }
 }

@@ -9,19 +9,13 @@
 
 
 @media screen and (max-width: 1148px){
-    .intro__title {
+    .intro__paragraph {
         min-width: 74.35%;
     }   
 }
 
 @media screen and (max-width: 860px){
-    .intro__title {
+    .intro__paragraph {
         width: 100%;
      }
-}
- 
- @media screen and (max-width: 540px){
-    .intro__title {
-        width: 100%;
-    }
 }

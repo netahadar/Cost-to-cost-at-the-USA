@@ -14,20 +14,20 @@
 
         <header class="header">
             <img class="header__logo" src="./blocks/Images/logo.svg" alt="logo">
-            <nav>
-                <ul class="header__nav-list">
-                    <li><a class="header__nav-link" href="#" target="_blank">En</a></li>
-                    <li><a class="header__nav-link" href="#" target="_blank">Es</a></li>
-                </ul>
-            </nav>
+            <ul class="header__lang-list">
+                <li><a class="header__lang-link header__lang-link_active" href="#" target="_blank">En</a></li>
+                <li><a class="header__lang-link" href="#" target="_blank">Es</a></li>
+            </ul>
         </header>
         <main>
             <section class="lead">
                 <h1 class="lead__title">From Portland to Portland</h1>
                 <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-                <img class="lead__image" src="./blocks/Images/lead-mountains.jpg"
-                    alt="lead-mountains in black and white">
-                <p class="lead__caption">YOUR JOURNEY STARTS HERE</p>
+                <figure>
+                    <img class="lead__image" src="./blocks/Images/lead-mountains.jpg"
+                        alt="lead-mountains in black and white">
+                    <figcaption class="lead__caption">your journey starts here</figcaption>
+                </figure>
             </section>
 
             <section class="intro">
@@ -82,7 +82,7 @@
                                 target="_blank">global.llbean.com</a>
                         </div>
                         <img class="place__image" src="./blocks/Images/place-maine.jpg" alt="Maine bich">
-                        <article class="place__main-text">
+                        <div class="place__main-text">
                             <p class="place__paragraph">Still, as sparsely populated as it was in the 1600s, this is an
                                 extraordinary and highly underrated state full of rich history and majestic natural
                                 beauty.
@@ -96,7 +96,7 @@
                                 company
                                 to grab a super sturdy backpack from for your 3-month expedition. </p>
                             <p class="place__paragraph">Average cost: $80-100.</p>
-                        </article>
+                        </div>
                     </li>
                     <li class="place">
                         <h2 class="place__title">New Hampshire</h2>
@@ -107,7 +107,7 @@
                         </div>
                         <img class="place__image" src="./blocks/Images/place-new-hampshire.jpg"
                             alt="New Hampshire valley">
-                        <article class="place__main-text">
+                        <div class="place__main-text">
                             <p class="place__paragraph">There's no better place to lose yourself in nature than in
                                 springtime
                                 New Hampshire. As serene and beautiful as it was in the 1700s, this state is still much
@@ -126,7 +126,7 @@
                                 also
                                 better than cycling shoes when pitching a tent.</p>
                             <p class="place__paragraph">Average cost: $100-150.</p>
-                        </article>
+                        </div>
                     </li>
                     <li class="place">
                         <h2 class="place__title">New York</h2>
@@ -135,7 +135,7 @@
                             <a class="place__link" href="https://www.ge.com/about-us" target="_blank">ge.com</a>
                         </div>
                         <img class="place__image" src="./blocks/Images/place-new-york.jpg" alt="road at New York">
-                        <article class="place__main-text">
+                        <div class="place__main-text">
                             <p class="place__paragraph">Not only famous for “The Big Apple,” the state of NY also has
                                 several
                                 other reasons for going down in history. Since the late 1800s Schenectady, “The City
@@ -148,7 +148,7 @@
                                 batteryless dynamo light for your bicycle to help you see through those dark lonely
                                 roads on
                                 your adventure. Such a light from GE will set you back about $10-20.</p>
-                        </article>
+                        </div>
                     </li>
                     <li class="place">
                         <h2 class="place__title">Erie, PA</h2>
@@ -158,7 +158,7 @@
                         </div>
                         <img class="place__image" src="./blocks/Images/place-pennsylvania.jpg"
                             alt="pennsylvania nature">
-                        <article class="place__main-text">
+                        <div class="place__main-text">
                             <p class="place__paragraph">Erie, Pennsylvania, not to be confused with the word “eerie,”
                                 although
                                 it can be from time to time, is another town worth passing through for several different
@@ -180,7 +180,7 @@
                                 and
                                 have an extra eerie time!</p>
                             <p class="place__paragraph">The current cost of a Hershey's Chocolate bar: about 60¢.</p>
-                        </article>
+                        </div>
                     </li>
                     <li class="place">
                         <h2 class="place__title">Ohio</h2>
@@ -189,7 +189,7 @@
                             <a class="place__link" href="https://www.cedarpoint.com" target="_blank">cedarpoint.com</a>
                         </div>
                         <img class="place__image" src="./blocks/Images/place-ohio.jpg" alt="ohaio">
-                        <article class="place__main-text">
+                        <div class="place__main-text">
                             <p class="place__paragraph">From the college capital of Columbus to the clean coastline of
                                 Cleveland, Ohio is a truly hidden gem. Earthquakes are surprisingly common in this
                                 particular
@@ -207,7 +207,7 @@
                                 can
                                 before continue your bike ride!</p>
                             <p class="place__paragraph">The cost of a daily ticket: about $100.</p>
-                        </article>
+                        </div>
                     </li>
                 </ul>
             </section>
@@ -221,17 +221,19 @@
         </main>
 
         <footer class="footer">
-            <ul class="footer__list">
-                <li class="footer__list-item">
-                    <a class="footer__link" href="https://yandex.com/maps" target="_blank">Maps</a>
-                </li>
-                <li class="footer__list-item">
-                    <a class="footer__link" href="https://yandex.com/weather/moscow" target="_blank">Weather</a>
-                </li>
-                <li class="footer__list-item">
-                    <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Calender</a>
-                </li>
-            </ul>
+            <nav>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a class="footer__link" href="https://yandex.com/maps" target="_blank">Maps</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a class="footer__link" href="https://yandex.com/weather/moscow" target="_blank">Weather</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Calender</a>
+                    </li>
+                </ul>
+            </nav>
             <p class="footer__copyrights">© 2021 Neta Hadar Itzhak</p>
         </footer>
 
