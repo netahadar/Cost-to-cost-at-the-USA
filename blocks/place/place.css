@@ -11,6 +11,10 @@
     position: relative;
 }
 
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 1148px){
     .place {
       grid-gap: 48px 32px;
